@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repo') {
             steps {
-                git 'https://github.com/YOUR_USERNAME/moso-interior-site.git'
+                git 'https://github.com/MerguMayuri/Moso_Interior.git'
             }
         }
         stage('Build Image') {

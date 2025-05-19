@@ -1,11 +1,11 @@
 pipeline {
     agent any
     stages {
-        stage('Clone Repo') {
+        /* stage('Clone Repo') {
             steps {
                 git 'https://github.com/MerguMayuri/Moso_Interior.git'
             }
-        }
+        } */
         stage('Build Image') {
             steps {
                 sh 'docker build -t moso-site .'
